@@ -1,0 +1,121 @@
+html {
+  scroll-behavior: smooth;
+  background-color: black;
+}
+
+body {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -o-animation: fadein 2s;
+  background-color: #2b2828;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+#socialsection {
+  padding-top: 5vh;
+  background: black;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.custombg {
+  background: black url(../assets/tattoo-1.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: 0% 65%;
+  background-size: cover;
+}
+
+.custombg h5 {
+  color: white;
+  font-family: 'Yellowtail', cursive;
+}
+
+.carousel-item {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 320px) {
+  .carousel-item {
+    width: 200px;
+    height: 300px;
+    margin-left: 20%;
+  }
+}
+
+@media (min-width: 375px) {
+  .carousel-item {
+    width: 200px;
+    height: 300px;
+    margin-left: 23.5%;
+  }
+}
+
+@media (min-width: 425px) {
+  .carousel-item {
+    width: 200px;
+    height: 300px;
+    margin-left: 27.5%;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-item {
+    width: 250px;
+    height: 350px;
+    margin: left 34.5%;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-item {
+    width: 250px;
+    height: 350px;
+    margin-left: 39.5%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel-item {
+    width: 250px;
+    height: 350px;
+    margin-left: 39.5%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .carousel-item {
+    width: 300px;
+    height: 400px;
+    margin-left: 38.5%;
+  }
+}
+
+@media (min-width: 1450px) {
+  .carousel-item {
+    width: 500px;
+    height: 750px;
+    margin-left: 37%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
